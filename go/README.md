@@ -21,3 +21,7 @@ go version go1.16.4 darwin/amd64
 ```
 $ go run main.go
 ```
+
+## Reference
+
+- [Go でファイルや標準入力からテキストを 1 行ずつ読む](https://www.yunabe.jp/tips/golang_readlines.html)

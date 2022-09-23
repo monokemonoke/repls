@@ -1,7 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"log"
+	"os"
+	"strconv"
+)
 
 func main() {
-	fmt.Println("Hello")
+	scanner := bufio.NewScanner(os.Stdin)
+	fmt.Print("go> ")
+	for scanner.Scan() {
+		fmt.Println(strconv.Quote(scanner.Text()))
+		fmt.Print("go> ")
+	}
+
+	if scanner.Err() != nil {
+		log.Fatal(scanner.Err())
+	}
 }
