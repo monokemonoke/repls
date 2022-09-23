@@ -21,3 +21,6 @@ ruby 2.6.8p205 (2021-07-07 revision 67951) [universal.x86_64-darwin21]
 ```
 $ ruby main.rb
 ```
+
+## Reference
+- [Ruby　標準入力から値を受け取る方法](https://qiita.com/Hayate_0807/items/2e9705091b181a104621)
